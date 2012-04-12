@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F8ECF7E141A5C4A0056D4CE /* CustomCalloutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D001C1419186D00B7EBF7 /* CustomCalloutViewController.m */; };
+		1F9D00071419186C00B7EBF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9D00061419186C00B7EBF7 /* UIKit.framework */; };
+		1F9D00091419186C00B7EBF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9D00081419186C00B7EBF7 /* Foundation.framework */; };
+		1F9D000B1419186C00B7EBF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9D000A1419186C00B7EBF7 /* CoreGraphics.framework */; };
+		1F9D00111419186C00B7EBF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F9D000F1419186C00B7EBF7 /* InfoPlist.strings */; };
+		1F9D00141419186C00B7EBF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D00131419186C00B7EBF7 /* main.m */; };
+		1F9D00171419186C00B7EBF7 /* CustomCalloutAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D00161419186C00B7EBF7 /* CustomCalloutAppDelegate.m */; };
+		1F9D001A1419186D00B7EBF7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9D00181419186D00B7EBF7 /* MainWindow.xib */; };
+		1F9D001D1419186D00B7EBF7 /* CustomCalloutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D001C1419186D00B7EBF7 /* CustomCalloutViewController.m */; };
+		1F9D00201419186D00B7EBF7 /* CustomCalloutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9D001E1419186D00B7EBF7 /* CustomCalloutViewController.xib */; };
+		1F9D00271419186D00B7EBF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9D00061419186C00B7EBF7 /* UIKit.framework */; };
+		1F9D00281419186D00B7EBF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9D00081419186C00B7EBF7 /* Foundation.framework */; };
+		1F9D00291419186D00B7EBF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9D000A1419186C00B7EBF7 /* CoreGraphics.framework */; };
+		1F9D00311419186D00B7EBF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F9D002F1419186D00B7EBF7 /* InfoPlist.strings */; };
+		1F9D00341419186D00B7EBF7 /* CustomCalloutTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1F9D00331419186D00B7EBF7 /* CustomCalloutTests.h */; };
+		1F9D00361419186D00B7EBF7 /* CustomCalloutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D00351419186D00B7EBF7 /* CustomCalloutTests.m */; };
+		1F9D004B14191AAE00B7EBF7 /* map_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9D004914191AAE00B7EBF7 /* map_marker.png */; };
+		1F9D004C14191AAE00B7EBF7 /* map_marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9D004A14191AAE00B7EBF7 /* map_marker@2x.png */; };
+		1F9D005F141924E800B7EBF7 /* CalloutAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D005E141924E800B7EBF7 /* CalloutAnnotationView.m */; };
+		1F9D00621419254B00B7EBF7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9D00601419254B00B7EBF7 /* CoreLocation.framework */; };
+		1F9D00631419254C00B7EBF7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9D00611419254B00B7EBF7 /* MapKit.framework */; };
+		1F9D006B14192FD700B7EBF7 /* ExampleCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D006A14192FD700B7EBF7 /* ExampleCalloutView.m */; };
+		1F9D006D1419301900B7EBF7 /* ExampleCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9D006C1419301900B7EBF7 /* ExampleCalloutView.xib */; };
+		1F9D00701419336400B7EBF7 /* ExampleLocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D006F1419336400B7EBF7 /* ExampleLocationAnnotation.m */; };
+		1F9D00731419350400B7EBF7 /* ExampleCalloutAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D00721419350400B7EBF7 /* ExampleCalloutAnnotation.m */; };
+		1F9D0076141937B400B7EBF7 /* ExampleLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D0075141937B300B7EBF7 /* ExampleLocationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F9D002A1419186D00B7EBF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9DFFF91419186C00B7EBF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9D00011419186C00B7EBF7;
+			remoteInfo = CustomCallout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F9D00021419186C00B7EBF7 /* CustomCallout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCallout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9D00061419186C00B7EBF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F9D00081419186C00B7EBF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F9D000A1419186C00B7EBF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F9D000E1419186C00B7EBF7 /* CustomCallout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomCallout-Info.plist"; sourceTree = "<group>"; };
+		1F9D00101419186C00B7EBF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F9D00121419186C00B7EBF7 /* CustomCallout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomCallout-Prefix.pch"; sourceTree = "<group>"; };
+		1F9D00131419186C00B7EBF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F9D00151419186C00B7EBF7 /* CustomCalloutAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCalloutAppDelegate.h; sourceTree = "<group>"; };
+		1F9D00161419186C00B7EBF7 /* CustomCalloutAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCalloutAppDelegate.m; sourceTree = "<group>"; };
+		1F9D00191419186D00B7EBF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1F9D001B1419186D00B7EBF7 /* CustomCalloutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCalloutViewController.h; sourceTree = "<group>"; };
+		1F9D001C1419186D00B7EBF7 /* CustomCalloutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCalloutViewController.m; sourceTree = "<group>"; };
+		1F9D001F1419186D00B7EBF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CustomCalloutViewController.xib; sourceTree = "<group>"; };
+		1F9D00261419186D00B7EBF7 /* CustomCalloutTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCalloutTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9D002E1419186D00B7EBF7 /* CustomCalloutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomCalloutTests-Info.plist"; sourceTree = "<group>"; };
+		1F9D00301419186D00B7EBF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F9D00321419186D00B7EBF7 /* CustomCalloutTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomCalloutTests-Prefix.pch"; sourceTree = "<group>"; };
+		1F9D00331419186D00B7EBF7 /* CustomCalloutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCalloutTests.h; sourceTree = "<group>"; };
+		1F9D00351419186D00B7EBF7 /* CustomCalloutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCalloutTests.m; sourceTree = "<group>"; };
+		1F9D004114191A7800B7EBF7 /* CalloutAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalloutAnnotationView.h; sourceTree = "<group>"; };
+		1F9D004914191AAE00B7EBF7 /* map_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_marker.png; sourceTree = "<group>"; };
+		1F9D004A14191AAE00B7EBF7 /* map_marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_marker@2x.png"; sourceTree = "<group>"; };
+		1F9D005D1419205A00B7EBF7 /* CustomCalloutProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCalloutProtocols.h; sourceTree = "<group>"; };
+		1F9D005E141924E800B7EBF7 /* CalloutAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalloutAnnotationView.m; sourceTree = "<group>"; };
+		1F9D00601419254B00B7EBF7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1F9D00611419254B00B7EBF7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1F9D006914192FD700B7EBF7 /* ExampleCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleCalloutView.h; sourceTree = "<group>"; };
+		1F9D006A14192FD700B7EBF7 /* ExampleCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleCalloutView.m; sourceTree = "<group>"; };
+		1F9D006C1419301900B7EBF7 /* ExampleCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleCalloutView.xib; sourceTree = "<group>"; };
+		1F9D006E1419336400B7EBF7 /* ExampleLocationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleLocationAnnotation.h; sourceTree = "<group>"; };
+		1F9D006F1419336400B7EBF7 /* ExampleLocationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleLocationAnnotation.m; sourceTree = "<group>"; };
+		1F9D00711419350400B7EBF7 /* ExampleCalloutAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleCalloutAnnotation.h; sourceTree = "<group>"; };
+		1F9D00721419350400B7EBF7 /* ExampleCalloutAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleCalloutAnnotation.m; sourceTree = "<group>"; };
+		1F9D0074141937B300B7EBF7 /* ExampleLocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleLocationView.h; sourceTree = "<group>"; };
+		1F9D0075141937B300B7EBF7 /* ExampleLocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleLocationView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F9D00221419186D00B7EBF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9D00271419186D00B7EBF7 /* UIKit.framework in Frameworks */,
+				1F9D00281419186D00B7EBF7 /* Foundation.framework in Frameworks */,
+				1F9D00291419186D00B7EBF7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9DFFFF1419186C00B7EBF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9D00621419254B00B7EBF7 /* CoreLocation.framework in Frameworks */,
+				1F9D00631419254C00B7EBF7 /* MapKit.framework in Frameworks */,
+				1F9D00071419186C00B7EBF7 /* UIKit.framework in Frameworks */,
+				1F9D00091419186C00B7EBF7 /* Foundation.framework in Frameworks */,
+				1F9D000B1419186C00B7EBF7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9D00031419186C00B7EBF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F9D00021419186C00B7EBF7 /* CustomCallout.app */,
+				1F9D00261419186D00B7EBF7 /* CustomCalloutTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9D00051419186C00B7EBF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F9D00611419254B00B7EBF7 /* MapKit.framework */,
+				1F9D00601419254B00B7EBF7 /* CoreLocation.framework */,
+				1F9D00061419186C00B7EBF7 /* UIKit.framework */,
+				1F9D00081419186C00B7EBF7 /* Foundation.framework */,
+				1F9D000A1419186C00B7EBF7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F9D000C1419186C00B7EBF7 /* CustomCallout */ = {
+			isa = PBXGroup;
+			children = (
+				1F9D00151419186C00B7EBF7 /* CustomCalloutAppDelegate.h */,
+				1F9D00161419186C00B7EBF7 /* CustomCalloutAppDelegate.m */,
+				1F9D001B1419186D00B7EBF7 /* CustomCalloutViewController.h */,
+				1F9D001C1419186D00B7EBF7 /* CustomCalloutViewController.m */,
+				1F9D001E1419186D00B7EBF7 /* CustomCalloutViewController.xib */,
+				1F9D004114191A7800B7EBF7 /* CalloutAnnotationView.h */,
+				1F9D005E141924E800B7EBF7 /* CalloutAnnotationView.m */,
+				1F9D00711419350400B7EBF7 /* ExampleCalloutAnnotation.h */,
+				1F9D00721419350400B7EBF7 /* ExampleCalloutAnnotation.m */,
+				1F9D006914192FD700B7EBF7 /* ExampleCalloutView.h */,
+				1F9D006A14192FD700B7EBF7 /* ExampleCalloutView.m */,
+				1F9D006C1419301900B7EBF7 /* ExampleCalloutView.xib */,
+				1F9D006E1419336400B7EBF7 /* ExampleLocationAnnotation.h */,
+				1F9D006F1419336400B7EBF7 /* ExampleLocationAnnotation.m */,
+				1F9D0074141937B300B7EBF7 /* ExampleLocationView.h */,
+				1F9D0075141937B300B7EBF7 /* ExampleLocationView.m */,
+				1F9D005D1419205A00B7EBF7 /* CustomCalloutProtocols.h */,
+				1F9D00181419186D00B7EBF7 /* MainWindow.xib */,
+				1F9D000D1419186C00B7EBF7 /* Supporting Files */,
+			);
+			path = CustomCallout;
+			sourceTree = "<group>";
+		};
+		1F9D000D1419186C00B7EBF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F9D000E1419186C00B7EBF7 /* CustomCallout-Info.plist */,
+				1F9D000F1419186C00B7EBF7 /* InfoPlist.strings */,
+				1F9D00121419186C00B7EBF7 /* CustomCallout-Prefix.pch */,
+				1F9D00131419186C00B7EBF7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F9D002C1419186D00B7EBF7 /* CustomCalloutTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F9D00331419186D00B7EBF7 /* CustomCalloutTests.h */,
+				1F9D00351419186D00B7EBF7 /* CustomCalloutTests.m */,
+				1F9D002D1419186D00B7EBF7 /* Supporting Files */,
+			);
+			path = CustomCalloutTests;
+			sourceTree = "<group>";
+		};
+		1F9D002D1419186D00B7EBF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F9D002E1419186D00B7EBF7 /* CustomCalloutTests-Info.plist */,
+				1F9D002F1419186D00B7EBF7 /* InfoPlist.strings */,
+				1F9D00321419186D00B7EBF7 /* CustomCalloutTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F9D004814191A9C00B7EBF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F9D004914191AAE00B7EBF7 /* map_marker.png */,
+				1F9D004A14191AAE00B7EBF7 /* map_marker@2x.png */,
+			);
+			name = Resources;
+			path = CustomCallout;
+			sourceTree = "<group>";
+		};
+		1F9DFFF71419186C00B7EBF7 = {
+			isa = PBXGroup;
+			children = (
+				1F9D000C1419186C00B7EBF7 /* CustomCallout */,
+				1F9D002C1419186D00B7EBF7 /* CustomCalloutTests */,
+				1F9D00051419186C00B7EBF7 /* Frameworks */,
+				1F9D00031419186C00B7EBF7 /* Products */,
+				1F9D004814191A9C00B7EBF7 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F9D00011419186C00B7EBF7 /* CustomCallout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9D00391419186D00B7EBF7 /* Build configuration list for PBXNativeTarget "CustomCallout" */;
+			buildPhases = (
+				1F9DFFFE1419186C00B7EBF7 /* Sources */,
+				1F9DFFFF1419186C00B7EBF7 /* Frameworks */,
+				1F9D00001419186C00B7EBF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomCallout;
+			productName = CustomCallout;
+			productReference = 1F9D00021419186C00B7EBF7 /* CustomCallout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F9D00251419186D00B7EBF7 /* CustomCalloutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9D003C1419186D00B7EBF7 /* Build configuration list for PBXNativeTarget "CustomCalloutTests" */;
+			buildPhases = (
+				1F9D00211419186D00B7EBF7 /* Sources */,
+				1F9D00221419186D00B7EBF7 /* Frameworks */,
+				1F9D00231419186D00B7EBF7 /* Resources */,
+				1F9D00241419186D00B7EBF7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9D002B1419186D00B7EBF7 /* PBXTargetDependency */,
+			);
+			name = CustomCalloutTests;
+			productName = CustomCalloutTests;
+			productReference = 1F9D00261419186D00B7EBF7 /* CustomCalloutTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F9DFFF91419186C00B7EBF7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1F9DFFFC1419186C00B7EBF7 /* Build configuration list for PBXProject "CustomCallout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F9DFFF71419186C00B7EBF7;
+			productRefGroup = 1F9D00031419186C00B7EBF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F9D00011419186C00B7EBF7 /* CustomCallout */,
+				1F9D00251419186D00B7EBF7 /* CustomCalloutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F9D00001419186C00B7EBF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9D00111419186C00B7EBF7 /* InfoPlist.strings in Resources */,
+				1F9D001A1419186D00B7EBF7 /* MainWindow.xib in Resources */,
+				1F9D00201419186D00B7EBF7 /* CustomCalloutViewController.xib in Resources */,
+				1F9D004B14191AAE00B7EBF7 /* map_marker.png in Resources */,
+				1F9D004C14191AAE00B7EBF7 /* map_marker@2x.png in Resources */,
+				1F9D006D1419301900B7EBF7 /* ExampleCalloutView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9D00231419186D00B7EBF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9D00311419186D00B7EBF7 /* InfoPlist.strings in Resources */,
+				1F9D00341419186D00B7EBF7 /* CustomCalloutTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F9D00241419186D00B7EBF7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F9D00211419186D00B7EBF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9D00361419186D00B7EBF7 /* CustomCalloutTests.m in Sources */,
+				1F8ECF7E141A5C4A0056D4CE /* CustomCalloutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9DFFFE1419186C00B7EBF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9D00141419186C00B7EBF7 /* main.m in Sources */,
+				1F9D00171419186C00B7EBF7 /* CustomCalloutAppDelegate.m in Sources */,
+				1F9D001D1419186D00B7EBF7 /* CustomCalloutViewController.m in Sources */,
+				1F9D005F141924E800B7EBF7 /* CalloutAnnotationView.m in Sources */,
+				1F9D006B14192FD700B7EBF7 /* ExampleCalloutView.m in Sources */,
+				1F9D00701419336400B7EBF7 /* ExampleLocationAnnotation.m in Sources */,
+				1F9D00731419350400B7EBF7 /* ExampleCalloutAnnotation.m in Sources */,
+				1F9D0076141937B400B7EBF7 /* ExampleLocationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F9D002B1419186D00B7EBF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9D00011419186C00B7EBF7 /* CustomCallout */;
+			targetProxy = 1F9D002A1419186D00B7EBF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F9D000F1419186C00B7EBF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9D00101419186C00B7EBF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F9D00181419186D00B7EBF7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9D00191419186D00B7EBF7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1F9D001E1419186D00B7EBF7 /* CustomCalloutViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9D001F1419186D00B7EBF7 /* en */,
+			);
+			name = CustomCalloutViewController.xib;
+			sourceTree = "<group>";
+		};
+		1F9D002F1419186D00B7EBF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9D00301419186D00B7EBF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F9D00371419186D00B7EBF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F9D00381419186D00B7EBF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1F9D003A1419186D00B7EBF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCallout/CustomCallout-Prefix.pch";
+				INFOPLIST_FILE = "CustomCallout/CustomCallout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F9D003B1419186D00B7EBF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCallout/CustomCallout-Prefix.pch";
+				INFOPLIST_FILE = "CustomCallout/CustomCallout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1F9D003D1419186D00B7EBF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomCallout.app/CustomCallout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCalloutTests/CustomCalloutTests-Prefix.pch";
+				INFOPLIST_FILE = "CustomCalloutTests/CustomCalloutTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1F9D003E1419186D00B7EBF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomCallout.app/CustomCallout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCalloutTests/CustomCalloutTests-Prefix.pch";
+				INFOPLIST_FILE = "CustomCalloutTests/CustomCalloutTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F9D00391419186D00B7EBF7 /* Build configuration list for PBXNativeTarget "CustomCallout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9D003A1419186D00B7EBF7 /* Debug */,
+				1F9D003B1419186D00B7EBF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9D003C1419186D00B7EBF7 /* Build configuration list for PBXNativeTarget "CustomCalloutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9D003D1419186D00B7EBF7 /* Debug */,
+				1F9D003E1419186D00B7EBF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9DFFFC1419186C00B7EBF7 /* Build configuration list for PBXProject "CustomCallout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9D00371419186D00B7EBF7 /* Debug */,
+				1F9D00381419186D00B7EBF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F9DFFF91419186C00B7EBF7 /* Project object */;
+}
